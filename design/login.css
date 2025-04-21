@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(158, 238, 158);
+}
+
+.contenedor-form{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+
+    height: 290px;
+    margin: 170px auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid green;
+}
+
+.contenedor-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+}
+
+.btn-txt, input[type="submit"]{
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid green;
+}   
+
+.txt-Register{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+}
+
+.btn-ingresar{
+    border: none;
+    padding: 7px;
+    background-color: green;
+    color: white;
+}
+.link-registro{
+    padding: 0px 5px;
+    text-decoration: none;
+    color: green;
+}
+
+.link-registro:hover{
+    color: grey;
+}
+
+
+
+
+
+

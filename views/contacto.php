@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contáctanos</title>
-    <link rel="stylesheet" href="./Index.Css">
+    <link rel="stylesheet" href="../design/Index.Css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
-        <img src="./IMG/logo.png" alt="Logo">
+        <img src="../IMG/logo.png" alt="Logo">
         <div class="search-box">
             <input type="text" placeholder="¿Qué estás buscando?">
             <i class="fa fa-search"></i>
         </div>
         <div class="nav-links">
-            <a href="/Nosotros.html">Nosotros</a>
+            <a href="../views/Nosotros.php">Nosotros</a>
             <div class="dropdown">
-                <a href="/producto.html">Productos</a>
+                <a href="../views/producto.php">Productos</a>
                 <div class="dropdown-content">
                     <a href="#Colagenos">Colagenos</a>
                     <a href="#Citratos">Citratos</a>
@@ -27,11 +27,11 @@
                     <a href="#Purgantes">Purgantes</a>
                 </div>
             </div>
-            <a href="/contacto.html">Contactanos</a>
+            <a href="../views/contacto.php">Contactanos</a>
         </div>
         <div class="icons">
             <i class="fa fa-question-circle"></i>
-            <i class="fa fa-user"></i>
+            <a href="../views/registroUser.php"><i class="fa fa-user"></i></a>
             <i class="fa fa-shopping-cart"></i>
         </div>
     </nav>

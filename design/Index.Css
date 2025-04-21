@@ -142,6 +142,67 @@ input, textarea {
     line-height: 1.6;
     color: #333;
 }
+
+/*Parte de la pestaña de registro de usuario */
+/* Contenedor de toda la página dividido en dos columnas */
+.contenedor-pagina {
+    display: flex;
+    height: 100vh; /* toda la altura visible */
+}
+
+/* Columna izquierda - Header con logo */
+.header-registro {
+    background-color: rgb(88, 196, 95);
+    width: 50%; /* cubre l  a mitad izquierda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.logito {
+    width: 70%;
+}
+
+/* Columna derecha - formulario */
+.form-contenedor {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+input{
+    text-align: center;
+    padding: 15px;
+    width: 270px;
+    font-size: 14px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    align-items: center;
+}
+.txt-form {
+    text-align: center;
+    margin-bottom: 590px;
+    margin-left: -65px;
+    position: absolute;
+    font-size: 30px;
+    color: #28a745;
+    font-weight: bold;
+    padding-left: 70px;
+}
+/*---------------------------------------------------*/
 /* Responsive */
 @media screen and  (max-width: 1850px){
     .nosotros-icon{
